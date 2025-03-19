@@ -15,7 +15,7 @@
 <br>
 <br>
 
-<!--
+
 <h2 style="text-align: center;"># Day 2 #</h2>
 
 ---
@@ -25,7 +25,7 @@
 * [Exercise 5 - Add Unit Test to the Application.md](Exercise%205%20-%20Add%20Unit%20Test%20to%20the%20Application.md)
 
 
-
+<!--
 
 <br>
 <br>
