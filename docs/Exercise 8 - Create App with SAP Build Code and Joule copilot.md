@@ -3,11 +3,7 @@
 # 练习8 - 使用SAP Build Code和Joule副驾创建应用程序
 
 ---
-<<<<<<< HEAD
-# SAP Build Code 和 Joule 副驾
-=======
 # SAP Build Code 和 Joule 副驾助手
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ## 概述
 在这一单元中，我们要创建一个客户忠诚度计划的应用程序。客户可以通过购买产品获得积分，并可以使用这些积分进行兑换。
 

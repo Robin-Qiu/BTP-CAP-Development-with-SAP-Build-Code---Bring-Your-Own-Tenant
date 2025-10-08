@@ -1,12 +1,8 @@
 <!-- docs/_sidebar.md -->
 
-![](vx_images/288853594065488_1.png)
+![](vx_images/288853594065488.png)
 
-<<<<<<< HEAD
-<h2 style="text-align: center;font-family:KTSong"># 动手练习 #</h2>
-=======
 <h2 style="text-align: center;"># 动手练习 #</h2>
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 ---
 

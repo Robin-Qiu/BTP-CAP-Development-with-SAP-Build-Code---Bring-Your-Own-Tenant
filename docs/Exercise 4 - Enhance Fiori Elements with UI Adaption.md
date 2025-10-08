@@ -6,31 +6,16 @@
 ![](vx_images/image-38.png)
 
 #### 2. 打开故事板并为实体**Conversations**添加字段
-<<<<<<< HEAD
-![](vx_images/image.png)
-
-点击**Show Details**并打开**Properties**标签页
-
-![](vx_images/image-1.png)
-
-=======
 ![](vx_images/331307467868714.png)
 
 点击**Show Details**并打开**Properties**标签页
 ![](vx_images/400755587172287.png)
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 添加新属性：
 **Name**: image
 **Type**: LargeBinary
 ![](vx_images/367034082821335.png)
 
-<<<<<<< HEAD
-添加注解如下：
-**Annotation目标:** Core.MediaType
-**Annotation值:** application/pdf
-![](vx_images/image-3.png)
-=======
 打开注解编辑页面
 ![](vx_images/462062165342850.png)
 
@@ -38,17 +23,12 @@
 **Annotation目标:** Core.MediaType
 **Annotation值:** application/pdf
 ![](vx_images/112275064497984.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 
 #### 2. 为实体Conversations添加对象页面
 
 返回故事板并打开PageMap
-<<<<<<< HEAD
-![](vx_images/image-4.png)
-=======
 ![](vx_images/126584498696472.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 添加新的对象页面
 
@@ -63,8 +43,6 @@
 
 ![](vx_images/image-7.png)
 
-<<<<<<< HEAD
-=======
 添加一个 Form Section
 ![](vx_images/152434472406741.png)
 
@@ -78,7 +56,6 @@
 
 
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ## 3. 测试上传PDF文档到Conversations实体。
 ![](vx_images/image-13.png)
 ![](vx_images/image-14.png)
@@ -93,23 +70,14 @@
 ![](vx_images/image-19.png)
 
 ## 4. 在Conversations实体的对象页面中添加自定义控制器。
-<<<<<<< HEAD
-
-![](vx_images/image-20.png)
-Controller名称: ConversationsController
-=======
 添加 Controller Extension，命名为：**ConversationsController**
 ![](vx_images/image-20.png)
 
 编辑刚刚创建的Controller
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ![](vx_images/image-21.png)
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 调整控制器代码如下：
 
 ```
@@ -144,37 +112,22 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension','sap/base/security/URLWhite
 
 
 			onInit: function () {
-<<<<<<< HEAD
-				// 可以通过this.base.getExtensionAPI访问Fiori元素扩展API
-=======
 				// var oModel = this.base.getExtensionAPI().getModel();
 				let oPdfview = new JSONModel({
 					Viewshow: false
 				});
 				this.base.getView().setModel(oPdfview,"pdfview");
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 			}
 		}
 	});
 });
 
 ```
-<<<<<<< HEAD
-## 5. 在Conversations实体的对象页面中添加自定义操作和片段。
-![](vx_images/image-23.png)
-![](vx_images/image-24.png)
-![](vx_images/image-27.png)
-操作ID: DisplayPDF
-按钮文本: 显示PDF文档
-处理程序文件: ConversationsController.controller (incidentmanagement004.Incidents.ext.controller.ConversationsController.controller, JS)
-处理程序按钮: showPDF
-=======
 
 ![](vx_images/image-22.png)
 ## 5. 在Conversations实体的对象页面中添加自定义操作和片段。
 ![](vx_images/image-23.png)
 ![](vx_images/image-24.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 **操作ID**: DisplayPDF
 **按钮文本**: 显示PDF文档
@@ -186,17 +139,12 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension','sap/base/security/URLWhite
 添加一个 Custom Section 进行PDF预览
 ![](vx_images/image-25.png)
 
-<<<<<<< HEAD
-标题: PdfViewer
-片段名: PdfViewerFrag
-=======
 **标题**: PdfViewer
 **片段名**: PdfViewerFrag
 
 ![](vx_images/63822531388164.png)
 
 编辑前端页面UI
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ![](vx_images/image-26.png)
 
 
@@ -222,11 +170,6 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension','sap/base/security/URLWhite
 ```
 ![](vx_images/image-28.png)
 
-<<<<<<< HEAD
-## 6. 测试在自定义片段中查看PDF文档
-![](vx_images/image-30.png)
-![](vx_images/image-29.png)
-=======
 
 ## 6. 测试在自定义片段中查看PDF文档
 ![](vx_images/269423442823364.png)
@@ -234,7 +177,6 @@ sap.ui.define(['sap/ui/core/mvc/ControllerExtension','sap/base/security/URLWhite
 打开应用页面
 ![](vx_images/84571709153612.png)
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ![](vx_images/image-31.png)
 ![](vx_images/image-33.png)
 ![](vx_images/image-34.png)

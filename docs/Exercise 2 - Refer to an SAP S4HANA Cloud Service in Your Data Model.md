@@ -5,8 +5,6 @@
 ---
 
 在本练习中，我们将添加SAP S/4HANA Cloud服务Business Partner到项目，并将其关联至我们的事件管理模型。
-<<<<<<< HEAD
-=======
 
 ![](vx_images/325096176622878_1.png)
 
@@ -92,90 +90,14 @@ H,High,High
 ```
 
 ![](vx_images/273317007786213.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
-![](vx_images/325096176622878_1.png)
 
-![](vx_images/180396878915669_1.png)
 
-<<<<<<< HEAD
-##### 发现并添加SAP S/4HANA Cloud服务到数据模型中
 
-从**Storyboard**标签页，点击外部资源图标上的"+"按钮。这将打开左侧的“服务中心”。
 
-![](vx_images/509205977768349_1.png)
-=======
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
-
-在“服务中心”中，你可以看到"SAP系统"节点。技术上来说，它包含了管理员为你在后端系统中设置的OData服务的目的地。这些服务可以来自SAP S/4HANA系统或者其他SAP后端系统。
-
-<<<<<<< HEAD
-展开**SAP System > lcapteched**, 并选择 **ADOPTION_LAB_API_BUSINESS_PARTNER**。
-
-现在你可以看到所选服务的详细信息，包括实体、每个实体的属性以及关于服务的一般数据。
-
-点击屏幕右上角的“添加外部数据模型”。
-
-这将把所选服务添加到你的项目中。
-
-![](vx_images/598492050897106_1.png)
-
-返回到**Storyboard**标签页。几秒钟后，新的服务将在“外部资源”图标中显示。
-
-![](vx_images/234222255270663_1.png)
-
-##### 将业务伙伴实体关联至事件管理实体
-
-从**Storyboard**, 在数据模型下选择一个实体，并点击“以图形建模器打开”以便回到图形化编辑界面。
-
-![](vx_images/367782484117154_1.png)
-
-从“事件”实体中，点击添加关系图标。
-![](vx_images/84863615669318_1.png)
-
-这将创建一个新的关联至业务伙伴实体。然而，在画布上你并没有看到业务伙伴实体，这是因为它的命名空间不同于我们的事件实体。
-
-新的对话框出现。
-1. 从目标实体下拉列表中选择**API_BUSINESS_PARTNER-A_BusinessPartner**。
-2. 将建议的属性名称改为**customer**。
-3. 确保所有其他建议（Association和To-One）不变，并点击“创建”。
-
-![](vx_images/96112304543482_1.png)
-
-此时，你可以看到最后的数据模型：
-![](vx_images/447214291160287_1.png)
-
-## 总结
-
-你现在已经添加了一个对外部的引用到你的SAP S/4HANA Cloud后端系统，并将其连接至你的“事件管理”数据模型。
-
----
-
-### 添加示例数据
-
-我们现在将使用一些示例数据填充我们的数据模型以便测试我们的服务。请注意，尽管名为示例数据，其实它有两种类型：
-- 固定值，是应用程序的一部分，并应该在部署时一同部署。示例：如果没有固定的一套紧急程度，则使用固定的值。
-- 示例数据，仅用于测试你创建的服务和应用程序，并不应包含在生产部署中。
-
-回到**Storyboard**, 并选择数据模型标签中的“事件”实体，点击“添加示例数据”。
-
-示例数据编辑器打开。
-![](vx_images/391663762569858_1.png)
-
-点击“添加”。保持“名称”字段为空。
-在“descr”字段中，分别为每一行输入Low, Medium和High。
-
-![](vx_images/32702649897692_1.png)
-
-现在我们将从一个文件导入数据至**A_BusinessPartner**实体。
-
-下载[Customers](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/customers.csv)文件，并点击下载图标。
-或使用本地文本编辑器，创建一个名为`customers.csv`的本地文件。
-=======
 现在我们将从一个文件导入数据至**A_BusinessPartner**实体。
 
 打开 `iac_adoptionlab-Customers.csv`，使用本地文本编辑器。
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 将以下内容添加到文件中并保存：
 ```
 BusinessPartner,FirstName,LastName
@@ -184,28 +106,15 @@ BusinessPartner,FirstName,LastName
 1001039,Sunny,Sunshine
 ```
 
-<<<<<<< HEAD
-从编辑器中选择**A_BusinessPartner**，并点击“导入”。
-
-在打开的文件选择对话框中，选择你创建的'customers.csv'文件。
-数据被添加。
-=======
 ![](vx_images/454118547008104.png)
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 ![](vx_images/441683903048179_1.png)
 
 现在我们将从文件导入数据至**Incidents**实体。
 
-<<<<<<< HEAD
-下载[Incidents](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/incidents.csv)文件，并点击下载图标。
-
-或使用本地文本编辑器，创建一个名为`incidents.csv`的本地文件。
-=======
 
 用本地文本编辑器，创建一个名为`iac_adoptionlab-Incidents.csv`的本地文件。
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 将以下内容添加到文件中并保存：
 ```
 ID,title,urgency_code,customer_BusinessPartner
@@ -215,20 +124,6 @@ ID,title,urgency_code,customer_BusinessPartner
 3583f982-d7df-4aad-ab26-301d4a157cd7,Solar panel broken,H,1001039
 ```
 
-<<<<<<< HEAD
-从编辑器中选择**Incidents**，并点击“导入”。
-
-在打开的文件选择对话框中，选择你创建的'incidents.csv'文件。
-数据被添加。
-
-![](vx_images/36722720545199_1.png)
-
-最后一步，我们将从文件导入数据至**Conversations**实体。
-
-下载[Conversations](https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/vx_attachments/477573873607615/conversations.csv)文件，并点击下载图标。
-
-或使用本地文本编辑器，创建一个名为`conversations.csv`的本地文件。
-=======
 ![](vx_images/418285655148602.png)
 
 
@@ -236,7 +131,6 @@ ID,title,urgency_code,customer_BusinessPartner
 
 
 用本地文本编辑器，创建一个名为`iac_adoptionlab-Conversations.csv`的本地文件。
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 将以下内容添加到文件中并保存：
 ```
 ID,incidents_ID,timestamp,author,message
@@ -246,14 +140,7 @@ ID,incidents_ID,timestamp,author,message
 9583f982-d7df-4aad-ab26-301d4a158cd7,3ccf474c-3881-44b7-99fb-59a2a4668418,2022-09-04T13:00:00Z,Bradley Flowers,What exactly is wrong?
 ```
 
-<<<<<<< HEAD
-从编辑器中选择**Conversations**，并点击“导入”。
-
-在打开的文件选择对话框中，选择你创建的'conversations.csv'文件。
-数据被添加。
-=======
 ![](vx_images/527316717293663.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 
 ## 总结
@@ -265,8 +152,6 @@ ID,incidents_ID,timestamp,author,message
 ### 创建服务(API)
 
 在数据模型(持久层)创建之后，我们现在将选择对外暴露的功能作为API。这个API可以被UI应用程序、工作流等消费。为此，我们将多个实体添加到服务中。CAP将自动通过OData服务暴露该服务。
-<<<<<<< HEAD
-=======
 
 ##### 创建新的服务实体
 
@@ -275,58 +160,26 @@ ID,incidents_ID,timestamp,author,message
 回到SAP Business Application Studio中的**Storyboard标签页。**
 
 在Storyboard中，从服务图标上点击“+”按钮，并输入服务名称为**Processor**。
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
-##### 创建新的服务实体
 
-<<<<<<< HEAD
-我们将添加4个实体至服务中：Customers（客户）、Incidents（事件）、Conversations（对话）以及Urgency（紧急程度）。
-
-回到SAP Business Application Studio中的**Storyboard标签页。**
-
-在Storyboard中，从服务图标上点击“+”按钮，并输入服务名称为**Processor**。
-CDS图形建模器打开。
-
-![](vx_images/184032481646313.png)
-
-从工具栏中点击“添加实体”并选择“Entity1”。
-
-**新投影对话框打开**
-=======
 ![](vx_images/26137781091183.png)
 
 CDS图形建模器打开。
 ![](vx_images/451046397351505.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
-从工具栏中点击“添加实体”并选择“Entity1”。
 
-<<<<<<< HEAD
-**新投影对话框打开**
-
-选择teched.Incidents实体，确保勾选“启用草稿编辑”复选框，并点击“确定”。
-=======
 
 从工具栏中点击“添加实体”并选择“Entity1”。
 
 **新投影对话框打开**
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 选择 iac_adoptionlab.Incidents实体，确保勾选“启用草稿编辑”复选框，并点击“确定”。
 
-<<<<<<< HEAD
-Incidents实体出现在CDS图形建模器中。
-=======
 ![](vx_images/17286209104876.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 Incidents实体出现在CDS图形建模器中。
 
-<<<<<<< HEAD
-点击“打开属性表”图标，并导入S/4HANA Cloud OData服务。
-=======
 ![](vx_images/207859500782981.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 点击“打开属性表”图标，并导入S/4HANA Cloud OData服务。
 
@@ -334,11 +187,6 @@ Incidents实体出现在CDS图形建模器中。
 
 浏览OData CDS文件。
 
-<<<<<<< HEAD
-浏览OData CDS文件。
-
-=======
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ![](vx_images/127424188057467.png)
 
 选择A_BusinessPartner实体。
@@ -348,9 +196,6 @@ Incidents实体出现在CDS图形建模器中。
 选择API_Busniess_Partner.A_BusinessPartner实体，清除“启用草稿编辑”复选框（如果未清除），并点击确定。
 A_BusinessPartner实体出现在CDS图形建模器中。
 
-<<<<<<< HEAD
-**重要提示：更改名称为Customers**
-=======
 1. 点击 **Add Projection** 图标。
 3. 清除 **all properties** 复选框，选择一下属性:
    
@@ -364,7 +209,6 @@ A_BusinessPartner实体出现在CDS图形建模器中。
 4. **重要提示：更改名称为Customers**
 
 ![](vx_images/352282395374797.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 从工具栏中点击“Add Projection”。
 
@@ -388,31 +232,7 @@ Urgency实体出现在CDS图形建模器中。
 
 ![](vx_images/260634387480200.png)
 
-从工具栏中点击“添加实体”并选择“Entity1”。
 
-<<<<<<< HEAD
-**新投影对话框打开**
-
-选择teched.Conversations实体，并清除“启用草稿编辑”复选框，点击确定。
-Conversations实体出现在CDS图形建模器中。
-
-![](vx_images/582693940493533_1.png)
-
-从工具栏中点击“添加实体”并选择“Entity1”。
-
-**新投影对话框打开**
-
-选择teched.Urgency实体，并清除“启用草稿编辑”复选框，点击确定。
-Urgency实体出现在CDS图形建模器中。
-
-![](vx_images/167643060220681_1.png)
-
-确认ProcessorService包含你刚刚添加的4个实体。
-
-![](vx_images/317314111543434.png)
-
-=======
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ##### 总结
 你现在已将一个**处理器服务（Processor）**添加到你的项目中。基本上，这个服务将会把你的数据模型暴露为一个OData V4, RESTful API给你的应用。
 
@@ -420,20 +240,6 @@ Urgency实体出现在CDS图形建模器中。
 
 ### 预览服务
 
-<<<<<<< HEAD
-我们现在有了一个服务，可以使用预示数据和实时数据来预览它而无需部署到云中。
-
-##### 使用示例数据预览
-
-从左侧的活动栏点击“运行配置”图标。这个视图打开。
-
-点击默认的运行配置：**运行 incident_managementXXX-1**。
-在打开的OData部分中，示例数据被选中。
-
-从“运行配置”视图点击“运行模块图标”。
-
-![](vx_images/137415347510788.png)
-=======
 我们现在有了一个服务，可以使用演示数据和实时数据来预览它而无需部署到云中。
 
 ##### 使用示例数据预览
@@ -453,7 +259,6 @@ Urgency实体出现在CDS图形建模器中。
 
 从“运行配置”视图点击“运行模块图标”。
 ![](vx_images/493215417735074.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 等待看到像下面的控制台输出为止：
 
@@ -470,18 +275,10 @@ Urgency实体出现在CDS图形建模器中。
 ![](vx_images/355632050704980.png)
 
 你可以在服务列表右侧看到包括**ProcessorService**在内的服务预览。
-<<<<<<< HEAD
-从“客户”行，点击“以代码形式查看”的图标来预览带有示例数据的客户列表。
-客户样本数据显示出来，
-使用OData V4查询和暴露数据。请注意，这个服务从内存数据库读取数据（在预览时自动开启），因此任何对数据的更改都不会保留。
-
-![](vx_images/342893437295058.png)
-=======
 从“Incidents”行，点击“以代码形式查看”的图标来预览带有示例数据的客户列表。
 客户样本数据显示出来，
 使用OData V4查询和暴露数据。请注意，这个服务从内存数据库读取数据（在预览时自动开启），因此任何对数据的更改都不会保留。
 ![](vx_images/70202457115280.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 ##### 使用实时数据预览
 

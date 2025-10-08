@@ -13,11 +13,7 @@
 
 ## 在CAP实体中添加角色限制
 
-<<<<<<< HEAD
-1. 选择**Processer服务**, 点击**Define User Role**以打开授权编辑器
-=======
 1. 选择**service.cds**, 打开编辑器
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 针对实体 **Incidents**，添加一个名为**IncidentViewer**的角色，并将其权限设置为**Read**
 
@@ -28,53 +24,18 @@ annotate Incidents with @restrict :
     ];
 ```
 
-<<<<<<< HEAD
-2. 选择**用户角色**, 添加新角色。
-=======
 ![](vx_images/13511186042636.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 2. 添加另一个名为**IncidentManager**的角色，并将其权限设置为**Full**
 
-<<<<<<< HEAD
-3. 点击**+**图标以添加新用户角色。
-
-添加一个名为**IncidentViewer**的角色，并将其权限设置为**Read**
-
-![](vx_images/550994083754865.png)
-
-添加另一个名为**IncidentManager**的角色，并将其权限设置为**Full**
-
-![](vx_images/37494125336073.png)
-
-4. 接下来，可以将角色分配给服务。
-
-选择**IncidentViewer**角色，并将其服务分配设为 **Processor**
-
-![](vx_images/22254381094408.png)
-
-为具有读取权限的服务实体分配角色。
-
-![](vx_images/540944651435046.png)
-
-选择**IncidentManager**角色，并为服务实体分配全部权限。
-
-![](vx_images/453984106249125.png)
-=======
 ```
 { grant : [ '*' ], to : [ 'IncidentManager' ] }
 ```
 
 ![](vx_images/504282238646525.png)
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
-
-5. 检查**xs-security.json**文件的内容。
-
-你已经在CDS服务模型中使用require注解添加了授权。
 
 
-<<<<<<< HEAD
-=======
+
 
 
 4. 接下来，可以将角色分配给服务。
@@ -120,7 +81,6 @@ annotate Processor with @requires :
 你已经在CDS服务模型中使用require注解添加了授权。
 
 
->>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 在终端运行以下命令：
 
 `cds add xsuaa --for production`
