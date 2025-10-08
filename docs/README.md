@@ -25,6 +25,10 @@
 
 在本次采用实验室中，我们将创建一个事件管理应用。为此，我们需要使用Cloud Application Programming Model（CAP）创建新的后端服务，并基于Fiori元素开发一个网络应用，用户可以通过此应用管理事件。
 
+<<<<<<< HEAD
+=======
+<!--
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 ## 要求
 
 对于错过预研讨会的人，请参阅录制视频和教程以获取规则及准备内容：
@@ -39,4 +43,10 @@
 
 ---
 
+<<<<<<< HEAD
 **实时练习**: https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/#/
+=======
+**实时练习**: https://robin-qiu.github.io/BTP-CAP-Development-with-SAP-Build-Code---Bring-Your-Own-Tenant/#/
+
+-->
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e

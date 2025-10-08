@@ -13,15 +13,30 @@
 
 ## 在CAP实体中添加角色限制
 
+<<<<<<< HEAD
 1. 选择**Processer服务**, 点击**Define User Role**以打开授权编辑器
+=======
+1. 选择**service.cds**, 打开编辑器
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
-![](vx_images/545454473795921.png)
+针对实体 **Incidents**，添加一个名为**IncidentViewer**的角色，并将其权限设置为**Read**
 
+```
+annotate Incidents with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'IncidentViewer' ] }
+    ];
+```
 
+<<<<<<< HEAD
 2. 选择**用户角色**, 添加新角色。
+=======
+![](vx_images/13511186042636.png)
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
-![](vx_images/465735225785279.png)
+2. 添加另一个名为**IncidentManager**的角色，并将其权限设置为**Full**
 
+<<<<<<< HEAD
 3. 点击**+**图标以添加新用户角色。
 
 添加一个名为**IncidentViewer**的角色，并将其权限设置为**Read**
@@ -45,12 +60,67 @@
 选择**IncidentManager**角色，并为服务实体分配全部权限。
 
 ![](vx_images/453984106249125.png)
+=======
+```
+{ grant : [ '*' ], to : [ 'IncidentManager' ] }
+```
+
+![](vx_images/504282238646525.png)
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 5. 检查**xs-security.json**文件的内容。
 
 你已经在CDS服务模型中使用require注解添加了授权。
 
 
+<<<<<<< HEAD
+=======
+
+
+4. 接下来，可以将角色分配给服务。
+
+选择角色**IncidentViewer**和**IncidentManager**，并将其分配给服务 **Processor**
+
+```
+annotate Processor with @requires :
+[
+    'authenticated-user',
+    'IncidentViewer',
+    'IncidentManager'
+];
+```
+![](vx_images/132013571665938.png)
+
+重复以上步骤，给实体**Customers**，**Conversations**，**Urgency** 分配 **IncidentViewer**，**IncidentManager**角色权限
+
+```
+    annotate Customers with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'IncidentViewer' ] },
+        { grant : [ '*' ], to : [ 'IncidentManager' ] }
+    ];
+
+    annotate Conversations with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'IncidentViewer' ] },
+        { grant : [ '*' ], to : [ 'IncidentManager' ] }
+    ];
+
+    annotate Urgency with @restrict :
+    [
+        { grant : [ 'READ' ], to : [ 'IncidentViewer' ] },
+        { grant : [ '*' ], to : [ 'IncidentManager' ] }
+    ];
+```
+
+![](vx_images/43322724000587.png)
+
+5. 检查**xs-security.json**文件的内容。
+
+你已经在CDS服务模型中使用require注解添加了授权。
+
+
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 在终端运行以下命令：
 
 `cds add xsuaa --for production`

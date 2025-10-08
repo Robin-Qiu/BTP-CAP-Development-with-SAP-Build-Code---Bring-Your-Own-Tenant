@@ -1,6 +1,10 @@
 <!-- docs/_sidebar.md -->
 
+<<<<<<< HEAD
 ![](vx_images/288853594065488.png)
+=======
+![](vx_images/288853594065488_1.png)
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
 
 <h2 style="text-align: center;"># 第一天 #</h2>
 

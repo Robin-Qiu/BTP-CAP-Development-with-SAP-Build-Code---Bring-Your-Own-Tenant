@@ -2,6 +2,7 @@
     "created_time": "2025-09-29T08:28:42Z",
     "files": [
         {
+<<<<<<< HEAD
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
             "id": "5466",
@@ -18,112 +19,201 @@
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 0 - Getting Started - Preparation.md",
             "signature": "13001054852168172346",
+=======
+            "attachment_folder": "269374032703959",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4744",
+            "modified_time": "2025-10-08T03:26:18Z",
+            "name": "_sidebar.md",
+            "signature": "16261918830746026810",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4722",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 1 - Create a  New Project and Create a Data Model.md",
             "signature": "18067933882721387322",
+=======
+            "id": "4746",
+            "modified_time": "2025-10-08T03:18:21Z",
+            "name": "Exercise 0 - Getting Started - Preparation.md",
+            "signature": "3940171027372983098",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4723",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 2 - Refer to an SAP S4HANA Cloud Service in Your Data Model.md",
             "signature": "11875830294573105978",
+=======
+            "id": "4748",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 1 - Create a  New Project and Create a Data Model.md",
+            "signature": "16007950512521102138",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+            "id": "4750",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 2 - Refer to an SAP S4HANA Cloud Service in Your Data Model.md",
+            "signature": "13549902744329536314",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "5471",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Backup_Exercise 3 - Create a List Report UI Application and Deploy to PostgreSQL on SAP BTP, hyperscaler option.md",
             "signature": "9741189324637619002",
+=======
+            "id": "4752",
+            "modified_time": "2025-10-08T03:24:19Z",
+            "name": "Exercise 3 - Create a List Report UI Application and Deploy.md",
+            "signature": "13087896466668274490",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4725",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 4 - Enhance Fiori Elements with UI Adaption.md",
             "signature": "10266176096489325370",
+=======
+            "id": "4754",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 4 - Enhance Fiori Elements with UI Adaption.md",
+            "signature": "489209129099477818",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4726",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 5 - Add Unit Test to the Application.md",
             "signature": "7460410413123519290",
+=======
+            "id": "4756",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 5 - Add Unit Test to the Application.md",
+            "signature": "9656527298666054458",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4727",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 6 - Implement Roles and Authorization Checks In CAP.md",
             "signature": "3874105741641663290",
+=======
+            "id": "4758",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 6 - Implement Roles and Authorization Checks In CAP.md",
+            "signature": "9858001654720906042",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4728",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 7 - Integrate with SAP Build Work Zone.md",
             "signature": "2214008698854589242",
+=======
+            "id": "4760",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 7 - Integrate with SAP Build Work Zone.md",
+            "signature": "9795746593391657786",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4729",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot.md",
             "signature": "3840696771594044218",
+=======
+            "id": "4762",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot.md",
+            "signature": "15732113006803960634",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4730",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "index.html",
             "signature": "13053166076917596986",
+=======
+            "id": "4764",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "index.html",
+            "signature": "13190951393732215610",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4731",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "README.md",
             "signature": "1601940451464201018",
+=======
+            "id": "4766",
+            "modified_time": "2025-10-08T03:10:46Z",
+            "name": "README.md",
+            "signature": "8988548111909143354",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "4732",
             "modified_time": "2025-09-29T08:28:42Z",
             "name": "Setup for SAP BTP Adoption Lab BYOT - Speed Up Clean Core Extension with BTP CAP AI based Agile Development.md",
@@ -138,16 +228,39 @@
             "modified_time": "2025-10-08T03:39:10Z",
             "name": "_sidebar.md",
             "signature": "4902879773449378862",
+=======
+            "id": "4768",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Setup for SAP BTP Adoption Lab BYOT - Speed Up Clean Core Extension with BTP CAP AI based Agile Development.md",
+            "signature": "10587922859820729146",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
             "created_time": "2025-09-29T08:28:42Z",
+<<<<<<< HEAD
             "id": "5470",
             "modified_time": "2025-10-08T03:24:19Z",
             "name": "Exercise 3 - Create a List Report UI Application and Deploy.md",
             "signature": "3726132199760977162",
+=======
+            "id": "5459",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "backup_sidebar.md",
+            "signature": "8475132415745316646",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "5463",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Backup_Exercise 3 - Create a List Report UI Application and Deploy to PostgreSQL on SAP BTP, hyperscaler option.md",
+            "signature": "17215483020218587251",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
             "tags": [
             ]
         }
@@ -157,8 +270,14 @@
             "name": "temp"
         }
     ],
+<<<<<<< HEAD
     "id": "4719",
     "modified_time": "2025-09-29T08:28:42Z",
     "signature": "5434922317574193978",
+=======
+    "id": "5465",
+    "modified_time": "2025-09-29T08:28:42Z",
+    "signature": "14870125701995578170",
+>>>>>>> c952367389a9ff4184cc0735dcd67d17f42ee80e
     "version": 3
 }
