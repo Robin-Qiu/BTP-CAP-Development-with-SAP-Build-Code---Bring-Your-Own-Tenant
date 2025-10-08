@@ -1,161 +1,164 @@
 {
-    "created_time": "2024-02-26T12:10:39Z",
+    "created_time": "2025-09-29T08:28:42Z",
     "files": [
         {
-            "attachment_folder": "",
-            "created_time": "2024-02-26T12:12:19Z",
-            "id": "17",
-            "modified_time": "2024-06-30T02:07:54Z",
-            "name": "index.html",
-            "signature": "784285914999062563",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2024-02-26T12:12:28Z",
-            "id": "658",
-            "modified_time": "2024-11-12T09:53:48Z",
-            "name": "Exercise 1 - Create a  New Project and Create a Data Model.md",
-            "signature": "5546498803300597804",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "477573873607615",
-            "created_time": "2024-02-26T12:12:31Z",
-            "id": "654",
-            "modified_time": "2024-11-12T15:42:51Z",
-            "name": "Exercise 0 - Getting Started - Preparation.md",
-            "signature": "8223662518600237103",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "440614109288799",
-            "created_time": "2024-04-11T03:05:26Z",
-            "id": "82",
-            "modified_time": "2024-11-21T02:50:11Z",
+            "attachment_folder": "269374032703959",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4744",
+            "modified_time": "2025-10-08T03:26:18Z",
             "name": "_sidebar.md",
-            "signature": "825932396101063542",
+            "signature": "16261918830746026810",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-04-11T03:08:51Z",
-            "id": "86",
-            "modified_time": "2024-11-18T17:20:11Z",
-            "name": "README.md",
-            "signature": "207324079150147",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4746",
+            "modified_time": "2025-10-08T03:18:21Z",
+            "name": "Exercise 0 - Getting Started - Preparation.md",
+            "signature": "3940171027372983098",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-04-11T03:26:00Z",
-            "id": "656",
-            "modified_time": "2024-11-20T04:37:45Z",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4748",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 1 - Create a  New Project and Create a Data Model.md",
+            "signature": "16007950512521102138",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4750",
+            "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 2 - Refer to an SAP S4HANA Cloud Service in Your Data Model.md",
-            "signature": "8364164805960357960",
+            "signature": "13549902744329536314",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-04-11T07:10:15Z",
-            "id": "657",
-            "modified_time": "2024-11-11T08:21:33Z",
-            "name": "Exercise 3 - Create a List Report UI Application and Deploy to PostgreSQL on SAP BTP, hyperscaler option.md",
-            "signature": "4203851404774182103",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4752",
+            "modified_time": "2025-10-08T03:24:19Z",
+            "name": "Exercise 3 - Create a List Report UI Application and Deploy.md",
+            "signature": "13087896466668274490",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-04-11T07:49:53Z",
-            "id": "662",
-            "modified_time": "2024-06-28T08:34:36Z",
-            "name": "Exercise 5 - Add Unit Test to the Application.md",
-            "signature": "819510079963764257",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2024-04-11T07:59:18Z",
-            "id": "671",
-            "modified_time": "2024-06-28T08:34:50Z",
-            "name": "Exercise 7 - Integrate with SAP Build Work Zone.md",
-            "signature": "4293452312423667798",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2024-04-19T08:45:16Z",
-            "id": "672",
-            "modified_time": "2024-11-19T12:24:20Z",
-            "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot.md",
-            "signature": "8085520616425402140",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2024-05-06T05:57:10Z",
-            "id": "665",
-            "modified_time": "2024-06-28T08:35:02Z",
-            "name": "Exercise 8 - Consume Events from SAP S4HANA Cloud Using CAP.md",
-            "signature": "8784647563144360246",
-            "tags": [
-            ]
-        },
-        {
-            "attachment_folder": "",
-            "created_time": "2024-05-06T05:58:43Z",
-            "id": "664",
-            "modified_time": "2024-11-20T04:44:22Z",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4754",
+            "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 4 - Enhance Fiori Elements with UI Adaption.md",
-            "signature": "8416612854932205971",
+            "signature": "489209129099477818",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-05-10T03:40:08Z",
-            "id": "668",
-            "modified_time": "2024-11-11T02:40:32Z",
-            "name": "Setup for SAP BTP Adoption Lab BYOT - Speed Up Clean Core Extension with BTP CAP AI based Agile Development.md",
-            "signature": "2211796421286139672",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4756",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 5 - Add Unit Test to the Application.md",
+            "signature": "9656527298666054458",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-05-26T16:13:06Z",
-            "id": "669",
-            "modified_time": "2024-06-28T08:34:42Z",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4758",
+            "modified_time": "2025-09-29T08:28:42Z",
             "name": "Exercise 6 - Implement Roles and Authorization Checks In CAP.md",
-            "signature": "7368913268780523410",
+            "signature": "9858001654720906042",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "created_time": "2024-04-19T08:45:16Z",
-            "id": "691",
-            "modified_time": "2024-11-19T11:41:50Z",
-            "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot_backup.md",
-            "signature": "1395245223331529510",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4760",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 7 - Integrate with SAP Build Work Zone.md",
+            "signature": "9795746593391657786",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4762",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot.md",
+            "signature": "15732113006803960634",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4764",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "index.html",
+            "signature": "13190951393732215610",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4766",
+            "modified_time": "2025-10-08T03:10:46Z",
+            "name": "README.md",
+            "signature": "8988548111909143354",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4768",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Setup for SAP BTP Adoption Lab BYOT - Speed Up Clean Core Extension with BTP CAP AI based Agile Development.md",
+            "signature": "10587922859820729146",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "5459",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "backup_sidebar.md",
+            "signature": "8475132415745316646",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "5463",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Backup_Exercise 3 - Create a List Report UI Application and Deploy to PostgreSQL on SAP BTP, hyperscaler option.md",
+            "signature": "17215483020218587251",
             "tags": [
             ]
         }
     ],
     "folders": [
+        {
+            "name": "temp"
+        }
     ],
-    "id": "16",
-    "modified_time": "2024-02-26T12:10:39Z",
-    "signature": "207324075294655",
+    "id": "5465",
+    "modified_time": "2025-09-29T08:28:42Z",
+    "signature": "14870125701995578170",
     "version": 3
 }

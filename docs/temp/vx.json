@@ -1,0 +1,41 @@
+{
+    "created_time": "2025-09-29T08:28:42Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4771",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 2 - Refer to an SAP S4HANA Cloud Service in Your Data Model.md",
+            "signature": "9751633181862937402",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4772",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 3 - Create a List Report UI Application and Deploy to PostgreSQL on SAP BTP, hyperscaler option.md",
+            "signature": "16964304201647276858",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2025-09-29T08:28:42Z",
+            "id": "4773",
+            "modified_time": "2025-09-29T08:28:42Z",
+            "name": "Exercise 8 - Create App with SAP Build Code and Joule copilot.md",
+            "signature": "5424099584103826234",
+            "tags": [
+            ]
+        }
+    ],
+    "folders": [
+    ],
+    "id": "4770",
+    "modified_time": "2025-09-29T08:28:42Z",
+    "signature": "546428461533250362",
+    "version": 3
+}
